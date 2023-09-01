@@ -88,6 +88,10 @@ body {
     letter-spacing: 0.02em;
 }
 
+.team-section {
+    background-color: #F4F4FD;
+}
+
 .team-title-section {
     color: #2E2F42;
     font-size: 36px;
