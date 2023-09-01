@@ -1,5 +1,5 @@
 body {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
@@ -7,10 +7,9 @@ body {
 .logo {
     color: #2E2F42;
     font-size: 18px;
-    font-family: Raleway;
     font-weight: 700;
     text-transform: uppercase;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-decoration: none;
 }
@@ -31,12 +30,11 @@ body {
 
 .adress-link {
     color: #434455;
-    font-style: normal;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .adress-link:hover,
@@ -54,6 +52,7 @@ body {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing:0.02em;
+    text-align: center;
 }
 
 .hero-button {
@@ -67,7 +66,8 @@ body {
     letter-spacing: 0.04em;
 }
 
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus {
     background-color: #404BBF;
     color: #fff;
 }
@@ -99,6 +99,7 @@ body {
     text-transform: capitalize;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .team-title {
@@ -107,6 +108,7 @@ body {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    background-color: #fff;
 }
 
 .team-text {
@@ -115,6 +117,7 @@ body {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    background-color: #fff;
 }
 
 .portfolio-title-section {
@@ -124,6 +127,7 @@ body {
     text-transform: capitalize;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .portfolio-title {
@@ -154,6 +158,15 @@ body {
     letter-spacing: 0.02em;
 }
 
-.footer-accent {
+.logo-footer {
     color: #F4F4FD;
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+.footer-accent{
+    color: #4D5AE5;
 }
