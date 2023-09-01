@@ -15,6 +15,12 @@ body {
 }
 .logo-accent {
     color: #4D5AE5;
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 .nav-link {
     color: #2E2F42;
@@ -35,11 +41,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: underline;
-}
-
-.adress-link:hover,
-.adress-link:focus {
-    color: #404BBF;
+    font-style: normal;
 }
 
 .hero-section {
@@ -169,4 +171,10 @@ body {
 }
 .footer-accent{
     color: #4D5AE5;
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
