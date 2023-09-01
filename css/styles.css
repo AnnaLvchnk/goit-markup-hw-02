@@ -5,6 +5,15 @@ body {
 }
 
 .logo {
+    color: #4d5ae5;
+    font-size: 18px;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+.logo-accent {
     color: #2E2F42;
     font-size: 18px;
     font-weight: 700;
@@ -13,15 +22,7 @@ body {
     letter-spacing: 0.03em;
     text-decoration: none;
     font-family: Raleway, sans-serif;
-}
-.logo-accent {
-    color: #4d5ae5;
-    font-size: 18px;
-    font-family: Raleway, sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
+
 }
 .nav-link {
     color: #2E2F42;
@@ -34,7 +35,15 @@ body {
 .nav-link:active {
     color: #404BBF;
 }
-
+.nav-link:hover{
+    color: #404bbf;
+}
+.nav-link:focus{
+    color: #404bbf;
+}
+.adress {
+    font-style: normal;
+}
 .adress-link {
     color: #434455;
     font-size: 16px;
@@ -42,7 +51,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: underline;
-    font-style: normal;
 }
 .adress-link:hover{
     color: #404bbf
@@ -167,16 +175,17 @@ body {
 }
 
 .logo-footer {
-    color: #f4f4fd;
+    color: #4d5ae5;
     font-size: 18px;
     font-family: Raleway, sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     line-height: 1.17;
     letter-spacing: 0.03em;
+
 }
 .footer-accent{
-    color: #4d5ae5;
+    color: #f4f4fd;
     font-size: 18px;
     font-family: Raleway, sans-serif;
     font-weight: 700;
